@@ -1,0 +1,533 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.wrap {
+  margin: 0px auto;
+  width: 480px;
+}
+.box01 {
+  margin: 10px;
+  border: 10px solid pink;
+  padding: 5px;
+  height: 350px;
+  width: 5px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+  color: soliid pink;
+}
+
+.box01:hover {
+  width: 400px;
+  height: 300px;
+}
+
+.box02 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  width: 5px;
+  height: 330px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box02:hover {
+  width: 350px;
+  height: 300px;
+}
+
+.box03 {
+  margin: 10px;
+  border: 10px solid pink;
+  padding: 5px;
+  height: 100px;
+  width: 5px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box03:hover {
+  width: 300px;
+}
+
+.box04 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  height: 1100px;
+  width: 5px;
+  border-radius: 20px;
+  transition: width 3s, height 2s;
+  overflow: hidden;
+}
+
+.box04:hover {
+  width: 1300px;
+  height: 1090px;
+}
+
+.box05 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  width: 5px;
+  height: 1900px;
+  border-radius: 20px;
+  transition: width 3s;
+  overflow: hidden;
+}
+
+.box05:hover {
+  width: 1300px;
+  height: 1700px;
+}
+
+.box06 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  width: 5px;
+  height: 1700px;
+  border-radius: 20px;
+  transition: width 3s;
+  overflow: hidden;
+}
+
+.box06:hover {
+  width: 1300px;
+}
+
+.box07 {
+  margin: 10px;
+  border: 10px solid pink;
+  padding: 5px;
+  width: 5px;
+  height: 150px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box07:hover {
+  width: 380px;
+  height: 130px;
+}
+
+.box08 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  width: 5px;
+  height: 130px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box08:hover {
+  width: 400px;
+  height: 120px;
+}
+
+.box09 {
+  margin: 10px;
+  border: 10px solid pink;
+  padding: 5px;
+  width: 5px;
+  height: 90px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box09:hover {
+  width: 420px;
+}
+
+.box10 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  width: 20px;
+  height: 1000px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box10:hover {
+  width: 900px;
+  height: 700px;
+}
+
+.box11 {
+  margin: 10px;
+  border: 10px solid pink;
+  padding: 5px;
+  width: 5px;
+  height: 90px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box11:hover {
+  width: 420px;
+}
+
+.box12 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  width: 5px;
+  height: 90px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box12:hover {
+  width: 320px;
+}
+
+.box13 {
+  margin: 10px;
+  border: 10px solid pink;
+  padding: 5px;
+  width: 5px;
+  height: 150px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box13:hover {
+  width: 460px;
+}
+
+.box14 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  width: 5px;
+  height: 180px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box14:hover {
+  width: 580px;
+}
+
+.box15 {
+  margin: 10px;
+  border: 10px solid pink;
+  padding: 5px;
+  width: 5px;
+  height: 100px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box15:hover {
+  width: 380px;
+}
+
+.box16 {
+  margin: 10px;
+  border: 10px solid cyan;
+  padding: 5px;
+  width: 5px;
+  height: 100px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box16:hover {
+  width: 380px;
+}
+
+.box17 {
+  margin: 10px;
+  border: 10px solid pink;
+  padding: 5px;
+  width: 5px;
+  height: 80px;
+  border-radius: 20px;
+  transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.box17:hover {
+  width: 380px;
+}
+
+
+
+.animatedbounce {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animatedflash {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: flash;
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.animatedpulse {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: pulse;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animatedrubberband {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: rubberband;
+}
+
+@keyframes rubberband {
+  0% {
+    transform: scale(1);
+  }
+
+  30% {
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+
+  40% {
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+
+  60% {
+    transform: scaleX(1.15) scaleY(0.85);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animatedshake {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: shake;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+.animatedswing {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: swing;
+}
+
+@keyframes swing {
+  20% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animatedwobble {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: wobble;
+}
+
+@keyframes wobble {
+  0% {
+    transform: translateX(0%);
+  }
+
+  15% {
+    transform: translateX(-25%) rotate(-5deg);
+  }
+
+  30% {
+    transform: translateX(20%) rotate(3deg);
+  }
+
+  45% {
+    transform: translateX(-15%) rotate(-3deg);
+  }
+
+  60% {
+    transform: translateX(10%) rotate(2deg);
+  }
+
+  75% {
+    transform: translateX(-5%) rotate(-1deg);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animatedflip {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: flip;
+}
+
+@keyframes flip {
+  0% {
+    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    animation-timing-function: ease-in;
+  }
+}
+
+.animatedhinge {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: hinge;
+}
+
+@keyframes hinge {
+  0% {
+    transform: rotate(0);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  20%, 60% {
+    transform: rotate(80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  40% {
+    transform: rotate(60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  80% {
+    transform: rotate(60deg) translateY(0);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  100% {
+    transform: translateY(700px);
+  }
+}
