@@ -1,0 +1,54 @@
+{
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .boxmodel {
+    margin: 10px;
+    border: 10px solid yellow;
+    padding: 8px;
+  }
+
+  .box_main {
+    border: 5px solid black;
+    position: relative;
+    height: 100px;
+  }
+
+  .box_main2 {
+    border: 5px solid black;
+    position: relative;
+    height: 400px;
+    width: 300px;
+    float: right;
+  }
+
+  .box01 {
+    margin: 10px;
+    border: 10px solid cyan;
+    padding: 10px;
+    height: 100px;
+  }
+
+  .box02 {
+    margin: 5px;
+    border: 10px solid orange;
+    position: relative;
+    padding: 10px;
+    height: 180px;
+  }
+
+  .box03 {
+    border: 5px solid blue;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    background-color: pink;
+  }
+
+  input[type=text] {
+    width: 20%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }

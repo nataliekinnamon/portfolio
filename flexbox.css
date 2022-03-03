@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.days{
+  display: flex;
+  flex-flow: row;
+  flex: 0.5;
+  text-align: center;
+}
+
+.row01 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.row02 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.row03 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.row04 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.box01 {
+  background-color: red;
+  text-align: right;
+  flex: 1;
+  padding-top: 5px;
+  padding-right: 10px;
+  color: white;
+}
+
+.box02 {
+  background-color: pink;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 10px;
+  flex: 1;
+  color: white;
+}
+
+.Sunday {
+  flex: 1;
+  background-color: white;
+  color: pink;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.Monday {
+  flex: 1;
+  background-color: white;
+  color: red;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.Tuesday {
+  flex: 1;
+  background-color: white;
+  color: pink;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.Wednesday {
+  flex: 1;
+  background-color: white;
+  color: red;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.Thursday {
+  flex: 1;
+  background-color: white;
+  color: pink;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.Friday {
+  flex: 1;
+  background-color: white;
+  color: red;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.Saturday {
+  flex: 1;
+  background-color: white;
+  color: pink;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.left {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.center {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.right {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.topleft {
+  background-color: blue;
+  flex: 1;
+}
+
+.topmiddle {
+  background-color: yellow;
+  flex: 1;
+}
+
+.topright {
+  background-color: cyan;
+  flex: 1;
+}
+
+.middleleft {
+  background-color: white;
+  flex: 1;
+}
+
+.middlemiddle {
+  background-color: black;
+  flex: 1;
+}
+
+.middleright {
+  background-color: grey;
+  flex: 1;
+}
+
+.bottomleft {
+  background-color: saddlebrown;
+  flex: 1;
+}
+
+.bottommiddle {
+  background-color: magenta;
+  flex: 1;
+}
+
+.bottomright {
+  background-color: pink;
+  flex: 1;
+}

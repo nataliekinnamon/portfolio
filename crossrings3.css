@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "DiamondDust";
+  src: url("DiamondDust-m3a9.ttf") format("Truetype");
+}
+
+  p {
+    font-family: "DiamondDust";
+    font-size: 32px;
+    color: pink;
+    background-color: black;
+  }
